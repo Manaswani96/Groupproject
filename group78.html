@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Tracking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Fredoka+One&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f2f2f2, #f9f9f9);
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-bottom: 5px solid #005bb5;
+        }
+
+        header h1 {
+            font-family: 'Fredoka One', cursive;
+            margin: 0;
+            font-size: 3rem;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+            opacity: 0.8;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            color: #0073e6;
+            font-weight: 600;
+            margin-bottom: 20px;
+            animation: slideIn 1s ease-out;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        /* Box Styling */
+        .tracking-box {
+            background-color: #00bfff;
+            color: white;
+            padding: 40px;
+            border-radius: 25px;
+            width: 70%;
+            margin: 30px auto;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tracking-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .tracking-box h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .tracking-box p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .tracking-box a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: #005bb5;
+            padding: 15px 30px;
+            border-radius: 50px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .tracking-box a:hover {
+            background-color: #003366;
+            transform: scale(1.1);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Keyframe Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            0% { transform: translateX(-50%); opacity: 0; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Real-Time Tracking</h1>
+        <p>Monitor every step in the supply chain with real-time data and insights.</p>
+    </header>
+
+    <section>
+        <h2>Track Your Fish Supply in Real-Time</h2>
+        <p>
+            Stay informed with live updates on your products as they move through the supply chain. Our platform ensures transparency and enables you to make data-driven decisions for a sustainable future.
+        </p>
+
+        <div class="tracking-box">
+            <h3>End-to-End Tracking</h3>
+            <p>
+                From farm to table, monitor the quality and sustainability of your fish with real-time updates. We provide full transparency of the supply chain to help you build trust with your buyers.
+            </p>
+            <a href="#">Start Tracking Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Real-Time Tracking | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
